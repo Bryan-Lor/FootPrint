@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  mix-blend-mode: difference;
+} */
+
+.bg-landing {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-image: url("images/landing.gif");
+  background-color: black;
+}
+
+.shoe-size-chart {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: right;
+}
+
+th {
+  background-color: rgb(80, 80, 81);
+  color: white;
+}
